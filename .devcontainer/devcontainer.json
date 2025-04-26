@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
-	"name": "Default Linux Universal",
+	"name": "MySTmd",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
@@ -24,6 +24,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip install --no-input mystmd",
 
+	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -31,9 +32,6 @@
 			]
 		}
 	}
-
-	// Configure tool-specific properties.
-	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
