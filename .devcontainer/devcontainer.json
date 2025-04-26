@@ -24,9 +24,6 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip install --no-input mystmd",
 
-	// Use 'postStartCommand' to run commands after the container is (re)started.
-	"postStartCommand": "bash -c 'cd my-book && nohup myst start > ../myst.log 2>&1 &'",
-
 	"customizations": {
 		"vscode": {
 			"extensions": [
