@@ -16,3 +16,4 @@ Conversion of Stanislaswebsite from Hugo Relearn to MySTmd
 Not done yet:
 1. add LaTex for pdf (this can be done by adding a feature to the devcontainer)
 2. add settings to make is easier for students (see examples in the github organisations StanislasSCW and Emmauscollege)
+
