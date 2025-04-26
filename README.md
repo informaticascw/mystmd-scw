@@ -3,10 +3,9 @@ Conversion of Stanislaswebsite from Hugo Relearn to MySTmd
 
 ## quickstart with this repo
 1. Create Codespace from this repository
-2. `cd mystmd-quickstart`
-3. `myst start`
-4. open browser on port 3000 for a preview of your book
-5. edit files in mystmd-quickstart to edit the book
+2. Confirm popup to show rendered book in browser
+3. Edit files in /my-book to edit the book
+4. Log of MySTmd are in /myst.log
 
 ## how this repo was created
 1. Create repository
