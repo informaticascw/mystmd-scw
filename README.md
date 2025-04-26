@@ -1,5 +1,5 @@
 # mystmd
-Conversion of Stanislaswebsite from Hugo Relearn to MySTmd
+Repository to start developing a book with MySTmd in a Codespace
 
 ## quickstart with this repo
 1. Create Codespace from this repository
