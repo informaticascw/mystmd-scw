@@ -15,7 +15,7 @@
 		  "label": "my-book",
 		  "onAutoForward": "notify"
 		},
-		"3010": {
+		"3100": {
 		  "label": "mystmd-info",
 		  "onAutoForward": "ignore"
 		}
@@ -25,7 +25,7 @@
 	"postCreateCommand": "pip install --no-input mystmd",
 
 	// Use 'postStartCommand' to run commands after the container is (re)started.
-	"postStartCommand": "cd my-book && nohup myst start > ../myst.log 2>&1 &",
+	"postStartCommand": "bash -c 'cd my-book && nohup myst start > ../myst.log 2>&1 &'",
 
 	"customizations": {
 		"vscode": {
