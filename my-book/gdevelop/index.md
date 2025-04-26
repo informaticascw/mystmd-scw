@@ -7,6 +7,8 @@ Hier vind je informatie over de G -evelop game opdracht.
 
 <!--more-->
 
+# G-develop
+
 ## Informatie voor leerlingen
 
 ### [Opdrachtbeschrijving](./Opdrachtomschrijving%20GDevelop.pdf)

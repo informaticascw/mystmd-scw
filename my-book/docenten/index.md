@@ -7,4 +7,6 @@ Hier vind je documenten gericht op docenten. Geen geheimen natuurlijk, want leer
 
 <!--more-->
 
+# Docenten
+
 ## [Ontwikkelomgeving: Github met Codespaces en classroom](./github/)

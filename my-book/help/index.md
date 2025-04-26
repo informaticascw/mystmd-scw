@@ -6,7 +6,7 @@ weight = 99
 Hier vind je oplossingen voor als je computer het niet doet bij het vak informatica.
 
 <!--more-->
-
+# Help
 
 ## PC in computerlokaal
 

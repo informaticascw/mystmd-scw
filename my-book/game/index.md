@@ -7,6 +7,8 @@ Hier vind je informatie over de Python Game opdracht. Deze wordt gegeven in peri
 
 <!--more-->
 
+# Game
+
 ## Informatie voor leerlingen
 
 ### [Opdrachtbeschrijving](./1.%20Opdrachtbeschrijving%20Python%20Game.docx)
