@@ -10,7 +10,12 @@ GitHub is een website waar je code kunt opslaan en delen. Codespaces is een code
 
 | Screenshot van Github | Screenshot van Codespace |
 | --- | --- |
-| ![github.png](../github.png) | ![codespace.png](../codespace.png) |
+| ![github.png](github.png) | ![codespace.png](codespace.png) |
+```{image} https://github.com/rowanc1/pics/blob/main/grapes-wide.png?raw=true
+:alt: Grapes on a vineyard
+:width: 500px
+:align: center
+```
 
 ##### GitHub is een website waar je code kunt opslaan en delen.
 - GitHub bewaart alle oude versies van je code.
@@ -35,7 +40,7 @@ GitHub is een website waar je code kunt opslaan en delen. Codespaces is een code
 
 ## 2. Starten met een opdracht
 
-![inschrijven.png](../inschrijven.png)
+![inschrijven.png](inschrijven.png)
 
 ### 2.1 Maak een account in GitHub
 1. Ga naar https://www.github.com/ (gebruik bij voorkeur Chrome).
@@ -56,7 +61,7 @@ GitHub is een website waar je code kunt opslaan en delen. Codespaces is een code
 
 Als je een Codespace start, dan zie je het scherm van VS Code in je browser.
 
-![vscode screenshot](../vscode.png)
+![vscode screenshot](vscode.png)
 Op bovenstaande plaatje zie je het scherm van VS Code met de volgende onderdelen:
 - (A) Activity Bar, klik op het bovenste icoon (Explorer) om je mappen en bestanden te zien, klik op het derde icoon (Source Control) van boven om te werken met GitHub
 - (C) Editor Groups, hier verschijnen de bestanden die je opent.
@@ -89,7 +94,7 @@ Het hangt van de programmeertaal af hoe je kunt bekijken wat je code voor result
 
 ## 4. Samenwerken
 
-![samenwerken.png](../samenwerken.png)
+![samenwerken.png](samenwerken.png)
 
 ### 4.1 Een team van één persoon
 Bewaar nieuwe versies van je code steeds in Github. Dan heb heb je een backup als er iets misgaat in Codespaces.
@@ -276,5 +281,5 @@ Je kunt 3 dingen doen:
 ### 5.4 Documentatie
 *Waar vind ik meer documentatie?*
 
-##### Documentatie over VS Code
+#### Documentatie over VS Code
 - [https://code.visualstudio.com/docs/getstarted/userinterface](https://code.visualstudio.com/docs/getstarted/userinterface)

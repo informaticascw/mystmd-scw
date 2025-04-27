@@ -15,12 +15,12 @@ project:
     - file: gdevelop/index.md 
       children:
         - pattern: gdevelop/*.md
-    - file: game/index.md 
+    - file: A-game/index.md 
       children:
-        - pattern: game/*.md
-    - file: webshop/index.md 
+        - pattern: A-*/*.md
+    - file: B-webshop/index.md 
       children:
-        - pattern: webshop/*-*.md
+        - pattern: B-*/*-*.md
     - file: help/index.md 
       children:
         - pattern: help/*.md      

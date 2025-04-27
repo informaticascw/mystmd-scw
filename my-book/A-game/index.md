@@ -7,7 +7,7 @@ Hier vind je informatie over de Python Game opdracht. Deze wordt gegeven in peri
 
 <!--more-->
 
-# Game
+# A. Game
 
 ## Informatie voor leerlingen
 

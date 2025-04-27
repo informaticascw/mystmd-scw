@@ -1,11 +1,9 @@
-# Webshop
+# B. Webshop
 
 Hier vind je informatie over de SQL Webshop opdracht. Deze wordt gegeven aan havo-5 en vwo-5.
 
 :::{toctree} Inhoud
 :maxdepth: 4
-webshop/99-docent.md
-webshop/1-inleiding.md
 :::
 
 
