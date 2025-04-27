@@ -13,8 +13,8 @@ GitHub is een website waar je code kunt opslaan en delen. Codespaces is een code
 | ![github.png](github.png) | ![codespace.png](codespace.png) |
 ```{image} https://github.com/rowanc1/pics/blob/main/grapes-wide.png?raw=true
 :alt: Grapes on a vineyard
-:width: 500px
-:align: center
+:width: 300px
+:align: right
 ```
 
 ##### GitHub is een website waar je code kunt opslaan en delen.

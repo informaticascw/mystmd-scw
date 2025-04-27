@@ -9,16 +9,20 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	 "forwardPorts": [3000, 3100],
+	 "forwardPorts": [3000, 3100, 8080],
 	 "portsAttributes": {
 		"3000": {
-		  "label": "my-book",
-		  "onAutoForward": "notify"
+		  "label": "myst-server-html",
+		  "onAutoForward": "ignore"
 		},
 		"3100": {
-		  "label": "mystmd-info",
+		  "label": "myst-server-json",
 		  "onAutoForward": "ignore"
-		}
+		},
+		"8080": {
+			"label": "myst-static",
+			"onAutoForward": "notify"
+		  }
 	  },
 
 	// Use 'postCreateCommand' to run commands after the container is created.
