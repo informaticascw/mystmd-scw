@@ -5,13 +5,18 @@ Repository to start developing a book with MySTmd in a Codespace
 1. Create Codespace from this repository
 2. In terminal execute command `cd my-book`
 3. In terminal execute command `myst start`
-4. Confirm popup to show rendered book in browser
+4. Confirm popup to show rendered book in browser with MyST-server
 5. Edit files in /my-book to edit the book
+6. Check output in preview of VSCode (many MyST features not supported)
+7. Check output in browser with MyST-server
+8. Double check output in browser with MyST-static by executing `myst build --html`
+9. Push to github will deploy on github pages using `myst build --html`
 
 ## how this repo was created
 1. Create repository
 2. Add devcontainer
 3. Follow MyST Quickstart on https://mystmd.org/guide
+4. Add deployment on github pages using terminal command `myst init --gh-pages` (first move book from subdir to root of repo)
 
 Not done yet:
 1. add LaTex for pdf (this can be done by adding a feature to the devcontainer)

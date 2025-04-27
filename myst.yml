@@ -33,7 +33,7 @@ site:
   template: book-theme
   options:
       hide_outline: true
-      folders: true
+  #    folders: true # keeps folder names in URL, works with myst-server, doesn't work with static?
       hide_title_block: true
   #   favicon: favicon.ico
   #   logo: site_logo.png
