@@ -1,10 +1,14 @@
-Python Gamedddeeeeeeeeee
-Opdrachtbeschrijving
-gees_at_stanislascollege_punt_nl
-29-12-2023, laatste update 15-7-2024
- 
-Plaatje van https://openai.com/chatgpt/
+Python Game
 
+Opdrachtbeschrijving
+
+gees_at_stanislascollege_punt_nl
+
+29-12-2023, laatste inhoudelijke update 15-7-2024, format aangepast 28-4-2025
+
+```{figure} cover.png
+Plaatje van https://openai.com/chatgpt/
+```
  
 # 1. Inleiding
 
@@ -12,7 +16,9 @@ Plaatje van https://openai.com/chatgpt/
 
 Dit is een opdracht waar je één of twee maanden aan gaat werken. De opdracht bestaat uit basisstappen en uitbreidingen. Met de basisstappen maak je een eenvoudig spel waarin je één level kunt spelen. Daarna ga je verder met de uitbreidingen. Je kunt zelf kiezen welke uitbreidingen je gaat maken.
 
- Voorbeeld van een spelletje.
+```{figure} scherm1.png
+Voorbeeld van een spelletje.
+```
 
 Elke basisstap bestaat uit een opdracht, toelichting en tips. In de opdracht staat wat je code moet doen. Lees dit aandachtig door, voordat je begint te coderen. De toelichting geeft aan hoe je de opdracht kunt maken. Een ervaren programmeur kan vaak zonder toelichting de opdracht maken. De tips kun je bekijken als je er niet uitkomt. Bekijk de tips één voor één van boven naar beneden en probeer na elke tip of je verder met de opdracht komt. Bij sommige stappen zijn de laatste tips bedoeld om je meer aan het denken te zetten over wat je gemaakt hebt.
 
@@ -20,15 +26,18 @@ Bij de uitbreidingen heb je meer vrijheid. Ze zijn minder ver uitgewerkt. Daardo
 
 ## 1.2 Geschiedenis
 
- 
-Arcadekasten. 
+### Arcadekasten
+```{figure} arcade.jpg
 Plaatje van https://commons.wikimedia.org/wiki/File:Four_Arcade_Games.jpg
+```
 
 In de jaren 80 van de vorige eeuw waren Arcadekasten erg populair. Arcadekasten vond je in uitgaansgelegenheden, soms stonde ze in grote aantallen bij elkaar in een arcadehal. Elke kast had zijn eigen spelletje. Als je geld in de kast stopte, dan kon je een spelletje spelen. Toen er steeds betere spelcomputers bij mensen thuis kwamen, verloor de arcadekast zijn populariteit.
 
  
-Arkanoid. 
+### Arkanoid
+```{figure} arkanoid.png
 Schermafdruk van https://www.youtube.com/watch?v=QCfnri9hefQ
+```
 
 Een voorbeeld van een spel dat je kon spelen is Arkanoid. Arkanoid is een game waarbij je blokjes moet wegstoten met een bal. De bal kaatst tegen een plank. De speler beweegt de plank. Als de bal langs de plank schiet, dan ben je af.
 
@@ -36,6 +45,8 @@ Een voorbeeld van een spel dat je kon spelen is Arkanoid. Arkanoid is een game w
 
 Voor deze opdracht heb je basiskennis nodig van programmeren in Python. Je hebt basiskennis als je geoefend hebt met variabelen, selectie (if-jes), iteratie (for-loop), functies en lijsten. Je kunt deze onderwerpen nog eens nakijken in Fundament Kernprogramma, Domein D: Programmeren -> Ontwikkelen met Python.
 
+```{image} pygame.png
+```
 Deze opdracht maakt gebruik van Pygame. Pygame is een package voor Python waarmee je gemakkelijker grafische spelletjes kunt programmeren. Je hoeft niet eerder met Pygame geoefend te hebben om deze opdracht te kunnen maken.
 
 Als je meer over Python of Pygame wilt weten, dan kun je de volgende naslagwerken gebruiken:
@@ -91,44 +102,31 @@ Opdrachten die niet voldoen aan de minimale eisen krijgen het cijfer 1,0.
 Een netjes uitgevoerde opdracht met alle basisstappen zal in de meeste gevallen beoordeeld worden met een voldoende. Om een hoog cijfer te halen moet je creatieve en complexe uitbreidingen toevoegen.
 
 Een concept beoordelingsmodel staat hieronder. Je docent kan tijdens het nakijken aanpassingen doen aan het beoordelingsmodel of de berekening van het cijfer.
-Onderdeel	Punten havo	Punten vwo	Toelichting 
-            
-Code	 	 	 
-Stijl	5	5	- Netjes uitgelijnd, 
-- helder commentaar, 
-- logische naamgeving van variabelen, 
-- logische volgorde van opdrachten, 
-- consistente code.
-Basiscode	20	15	- If-opdrachten goed toegepast, vergelijkingsoperatoren </>/== gebruikt, logische operatoren and/or gebruikt, 
-- lijsten toegepast, 
-- for (of while)-opdrachten toegepast, 
-- code kan omgaan met verschillende lengtes van lijsten (len goed gebruikt),
-- code wijzigt aantal elementen in lijst tijdens het runnen.
-Uitbreidingen (maantjes)	15	20	- Uitbreidingen gemaakt met technieken die in de opdracht behandeld zijn, zoals meer loops, meer lijsten, meer functies (1 maantje)
-- uitbreidingen gemaakt met technieken die niet in de opdracht behandeld zijn en je je zelfstandig hebt eigen gemaakt, zoals dicts, geneste loop, lijst in lijst (2 maantjes).
-             
-Functionaliteit	 	 	 
-Speelbaarheid	5	5	- geen glitches
-- soepele bediening
-Basisfunctionaliteit	20	15	- Bal stuitert tegen randen, 
-- plank beweegt en stopt aan de rand van het scherm en laat bal stuiteren, 
-- 1 blok waartegen bal stuitert,
-- meer dan 10 blokken waartegen bal stuitert,
-- blokken verdwijnen, je kunt af gaan en winnen.
-Uitbreidingen (zonnetjes)	15	20	Uitbreidingen in het spel die zorgen voor diversiteit en hoe beter je wordt hoe leuker of moeilijker het wordt, 
-- voorbeelden van kleine uitbreidingen (1 zonnetje) zijn steeds snellere bal, verschillende kleuren blokken,
-- voorbeelden van grotere uitbreidingen (2 zonnetjes) zijn meer levels, ingewikkelde powerups zoals blokken wegschieten, veel ballen.
-             
-Proces	 	 	 
-Planning	5	5	Uit de commits en/of tijdens de les blijkt dat het stappenplan gevolgd is en dat er regelmatig is gewerkt.
-Samenwerking	5	5	Uit de commits en/of tijdens de les blijkt dat het werk gelijk verdeeld is onder teamleden. Als één teamlid beduidend minder doet, dan is dat een gezamenlijke verantwoordelijkheid van het team om dat op te lossen of te melden bij de docent. Maak vanaf het begin afspraken en spreek elkaar daarop aan. Als je er niet uitkomt, dan meld je dat zo snel mogelijk bij je docent.
+
+Onderdeel|Punten havo|Punten vwo|Toelichting 
+-|-|-|-
+**Code**
+Stijl|5|5|- Netjes uitgelijnd,<br> - helder commentaar, <br>- logische naamgeving van variabelen, <br>- logische volgorde van opdrachten, <br>- consistente code.
+Basiscode|20|15|- If-opdrachten goed toegepast, vergelijkingsoperatoren </>/== gebruikt, logische operatoren and/or gebruikt, <br>- lijsten toegepast, <br>- for (of while)-opdrachten toegepast, <br>- code kan omgaan met verschillende lengtes van lijsten (len goed gebruikt),<br>- code wijzigt aantal elementen in lijst tijdens het runnen.
+Uitbreidingen (maantjes)|15|20|- Uitbreidingen gemaakt met technieken die in de opdracht behandeld zijn, zoals meer loops, meer lijsten, meer functies (1 maantje)<br>- uitbreidingen gemaakt met technieken die niet in de opdracht behandeld zijn en je je zelfstandig hebt eigen gemaakt, zoals dicts, geneste loop, lijst in lijst (2 maantjes).
+**Functionaliteit**	 	 
+Speelbaarheid|5|5|- geen glitches<br>- soepele bediening
+Basisfunctionaliteit|20|15|- Bal stuitert tegen randen,<br>- plank beweegt en stopt aan de rand van het scherm en laat bal stuiteren, <br>- 1 blok waartegen bal stuitert,<br>- meer dan 10 blokken waartegen bal stuitert,<br>- blokken verdwijnen, je kunt af gaan en winnen.
+Uitbreidingen (zonnetjes)|15|20|Uitbreidingen in het spel die zorgen voor diversiteit en hoe beter je wordt hoe leuker of moeilijker het wordt, <br>- voorbeelden van kleine uitbreidingen (1 zonnetje) zijn steeds snellere bal, verschillende kleuren blokken,<br>- voorbeelden van grotere uitbreidingen (2 zonnetjes) zijn meer levels, ingewikkelde powerups zoals blokken wegschieten, veel ballen.             
+**Proces**	 
+Planning|5|5|Uit de commits en/of tijdens de les blijkt dat het stappenplan gevolgd is en dat er regelmatig is gewerkt.
+Samenwerking|5|5|Uit de commits en/of tijdens de les blijkt dat het werk gelijk verdeeld is onder teamleden. Als één teamlid beduidend minder doet, dan is dat een gezamenlijke verantwoordelijkheid van het team om dat op te lossen of te melden bij de docent. Maak vanaf het begin afspraken en spreek elkaar daarop aan. Als je er niet uitkomt, dan meld je dat zo snel mogelijk bij je docent.
 
 Cijfer = 1 + 9 * behaalde punten / maximale punten
 
-# Basisstappen 0 t/m 3: de bal
+# Stap 0-3: bal
+```{pull-quote}
 We beginnen met een bal die stuitert.
- 
+```
+
+```{figure} scherm2.png
 Schermafdruk van spelletje met basisstap 0 t/m 3.
+```
 
 De basisstappen zijn genummerd van stap 0 tot en met stap 21. In elke basisstap staat onder ‘opdracht’ wat je code moet doen. Lees dit aandachtig door, voordat je begint te coderen. De toelichting geeft aan hoe je de opdracht kunt maken. De tips kun je bekijken als je er niet uitkomt. 
 
@@ -136,32 +134,32 @@ De basisstappen zijn genummerd van stap 0 tot en met stap 21. In elke basisstap 
 
 In ‘de opdracht’ staat wat je code moet doen. Lees dit aandachtig door, voordat je begint te coderen. De toelichting geeft aan hoe je de opdracht kunt maken. De tips kun je bekijken als je er niet uitkomt.
 
-:::{note} Opdracht
+```{note} Opdracht
 Verander in de code de achtergrondkleur van je spel. Doe het volgende:
 -	Run de startcode. De achtergrond is zwart, bovenin beweegt een blauwe bal.
 -	Verander in de code de achtergrondkleur van je spel. 
 -	Start je code opnieuw.
 -	Sla de nieuwe versie van je code op in GitHub.
-:::
+```
 
-:::{attention} Toelichting
+```{attention} Toelichting
 Voor deze opdracht krijg je startcode. De startcode beweegt een bal bovenin het scherm van links naar rechts naar links enzovoort. De startcode moet je uitvoeren (Engels: run) en wijzigen (Engels: edit) in een ontwikkelomgeving. Je docent vertelt hoe je aan de startcode komt en welke ontwikkelomgeving je mag gebruiken.
-:::
+```
 
-:::{hint} Tips
+```{hint} Tips
 :class: dropdown
 -	Wijzig de screen.fill('black') in het bestand main.py om de achtergrondkleur te veranderen.
 -	Bij de startcode zit een README.md bestand. Hierin staat hoe je code kunt starten, stoppen, wijzigingen en opslaan.
 -	Meer informatie over de ontwikkelomgeving GitHub Codespaces vind je op https://stanislas.informatica.nu/help/codespaces/
-:::
+```
 
 ## Stap 1. Voeg commentaar toe 
 
-:::{note} Opdracht
+````{note} Opdracht
 Breidt het commentaar in je startcode uit. In de toelichting vind je voorbeelden van stukjes code met extra commentaar. Het gaat er bij deze opdracht om dat je de startcode leert begrijpen.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Stukje code uit main.py die constanten en variabelen maakt:
 ```python
 # definitions 
@@ -257,23 +255,23 @@ Stukje code uit gameloop die frame-snelheid regelt:
     # wait until next frame
     fps_clock.tick(FPS) # Sleep the remaining time of this frame
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Alles tussen # en het einde van de regel, wordt door de computer overgeslagen.
 -	Hoe werkt het tekenen op het scherm in de pygame-library? In welke regels code worden de plaatjes ingelezen? In welke regels code worden plaatjes op het scherm gezet? In welke regel wordt het nieuwe scherm op de monitor getoond? 
 -	Hoe wordt het aantal frames per seconde geregeld?
 -	Wat moet je veranderen aan de code om de bal op een andere plek te laten starten?
-:::
+````
 
 ## Stap 2. Beweeg de bal schuin
 
-:::{note} Opdracht
+````{note} Opdracht
 De bal beweegt nu horizontaal over het scherm. Voeg code toe die ervoor zorgt dat de bal diagonaal (schuin) over het scherm beweegt. Voeg de variabelen ball_y en ball_speed_y toe.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Regels uit de startcode die de bal horizontaal bewegen:
 ```python
 ball_x = 0
@@ -285,23 +283,23 @@ ball_x = ball_x + ball_speed_x
 # draw ball
 screen.blit(ball_img, (ball_x, 0))
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Maak een variabele ball_y en geef die een waarde, bijvoorbeeld 100.
 -	Gebruik de waarde van ball_y bij de functie die de bal op het scherm zet. Dit is de functie screen.blit. 
 -	Maak een variabele ball_speed_y en geef die een waarde ongelijk aan 0, bijvoorbeeld 10.
 -	Kopieer de regel code waarin steeds de waarde van ball_x wordt berekend. Pas de kopie aan, zodat de waarde van ball_y wordt berekend. Gebruik daarbij variabele ball_speed_y.
-:::
+````
 
 ## Stap 3. Stuiter de bal tegen de onder- en bovenkant van het scherm
 
-:::{note} Opdracht
+````{note} Opdracht
 De bal verdwijnt nu uit het scherm als hij aan de bovenkant of de onderkant komt. Zorg dat de bal tegen de onderrand en bovenrand van het scherm stuitert, net zoals hij dat doet aan de zijkanten.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Code die zorgt dat bal stuitert tegen zijkant van scherm:
 ```python
     if ball_x < 0 : # left edge
@@ -311,26 +309,30 @@ Code die zorgt dat bal stuitert tegen zijkant van scherm:
 ```
 
 -	De functie abs(getal) geeft als resultaat een getal zonder min. Dus abs(-2) is 2 en abs(2) is ook 2. Dus abs(ball_speed_x) geeft de positieve waarde van de x-snelheid. abs(ball_speed_x) * -1 geeft de negatieve waarde van de x-snelheid.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Zoek de regels code die ervoor zorgen dat de bal tegen de zijkanten van het scherm kaatst. Kopieer dat stukje code en pas het aan zodat dat de bal ook tegen de bovenkant en onderkant van het scherm kaatst.
 -	Gebruik BALL_HEIGHT om rekening te houden met de hoogte van de bal.
-:::
+````
 
-# Basisstappen 4 t/m 9: de plank
+# Stap 4-9: plank
+```{pull-quote}
 De bal beweegt, maar je kunt het spel nog niet spelen. Daarom gaan we een plank toevoegen.
- 
+````
+
+```{figure} scherm3.png
 Schermafdruk van spelletje met basisstap 4 t/m 9.
+```
 
 ## Stap 4. Teken de plank
 
-:::{note} Opdracht
+````{note} Opdracht
 Teken de plank (Engels: paddle) op het scherm. Gebruik de variabele paddle_img om het plaatje van de plank in op te slaan. Gebruik de variabelen paddle_x en paddle_y om de linkerbovenhoek van de plank aan te geven. Maak de startpositie van de plank ongeveer midden onder op het scherm. Gebruik de constanten PADDLE_WIDTH en PADDLE_HEIGHT voor de breedte en hoogte van de plank. Maak je plank 144 pixels breed en 32 pixels hoog.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Kopieer de code van de bal en pas de kopie aan, zodat hij werkt voor de plank.
 
 Regels uit de startcode die het plaatje van de bal inlezen:
@@ -350,41 +352,41 @@ screen.blit(ball_img, (ball_x, ball_y))
 ```
 
 -	ball_img is de naam van de variabele waar het plaatje in zit dat je op het scherm wil zetten. ball_x en ball_y zijn de linkerbovenhoek van de plek waar het plaatje op het scherm wordt gezet.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	De breedte van de plank in het spritesheet is 243 pixels, de hoogte is 64 pixels. Dat is de afmeting die het nieuwe plaatje moet hebben.
 -	De plank staat in het spritesheet op x is 1158 en y is 396. Dat is de linkerbovenhoek van het stuk dat je uit het spritesheet moet kopieren.
 -	Definieer de constanten PADDLE_WIDTH en PADDLE_HEIGHT en geef ze de waarde 144 en 32. Dit is de afmeting waarnaar je het plaatje van de paddle moet verkleinen.
 -	Maak de variabelen paddle_x en paddle_y om bij te houden waar de paddle staat. Geef ze een startwaarde, bijvoorbeeld SCREEN_WIDTH / 2 en SCREEN_HEIGHT – 100. Gebruik paddle_x en paddle_y om de plank op de goede plaats op het scherm te zetten. 
-:::
+````
 
 ## Stap 5. Beweeg de plank
 
-:::{note} Opdracht
+````{note} Opdracht
 Beweeg de plank als de D-toets (rechts) of A-toets (links) is ingedrukt. Beweeg de plank met één pixel per frame. Gebruik keys uit de startcode om te zien welke toets momenteel worden ingedrukt.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Kijken of de D-toets is ingedrukt doe je als volgt:
 if keys[pygame.K_d] : # key d is down
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Als de D-toets is ingedrukt, beweeg je de plank naar rechts door bij paddle_x tien op te tellen. De plank wordt daardoor verderop in de code op een nieuwe plek getekend.
 -	Als de A-toets is ingedrukt, beweegt de plank naar links.
 -	Gebruik maar één keer de regel keys = pygame.key.get_pressed() om de stand van de toetsen te lezen
-:::
+````
 
 ## Stap 6. Stop de plank aan de randen van het scherm
 
-:::{note} Opdracht
+````{note} Opdracht
 Zorg dat de plank niet verder beweegt als hij de rand van het scherm raakt. Gebruik paddle_x en SCREEN_WIDTH om te kijken of de plank aan de rand is. Gebruik PADDLE_WIDTH om rekening te houden met de breedte van de plank.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Pseudo-code om de plank te laten stoppen aan de rechterkant van het scherm.
 ```pseudo
 als plank_x + plank_breedte > breedte_van_scherm dan
@@ -392,22 +394,22 @@ als plank_x + plank_breedte > breedte_van_scherm dan
 ```
 Maak zelf de Python-code en zet die op een logische plaats in je programma. 
 Pseudo-code om de plank te laten stoppen aan de linkerkant van het scherm kun je zelf maken.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	plank_x in de pseudo-code is paddle_x in je code, 
 breedte_van_scherm in de pseudo-code is SCREEN_WIDTH uit je code en 
 plank_breedte uit de pseudo-code is PADDLE_WIDTH in je code.
-:::
+````
 
 ## Stap 7. Stuiter de bal tegen de plank
 
-:::{note} Opdracht
+````{note} Opdracht
 Zorg dat de bal kaatst tegen je plank. Hiervoor zijn veel algoritmen te bedenken. Het algoritme uit deze stap kijkt of een stukje van de bal op dezelfde plek is als een stukje van de plank. Als dat zo is dan wordt de y-richting van de bal negatief gemaakt, zodat de bal omhoog beweegt. 
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Pseudo-code:
 ```pseudo  als rechter_kant_bal is groter dan   linker_kant_paddle en 
       linker_kant_bal  is kleiner dan  rechter_kant_paddle en
@@ -415,9 +417,9 @@ Pseudo-code:
       boven_kant_bal  is kleiner dan   onder_kant_paddle dan
           bal_snelheid_y = de positieve waarde van bal_snelheid_y keer -1
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Gebruik de pseudo-code. Gebruik nu geen ingebouwde functie van pygame om een botsing te detecteren. 
 -	Je kunt een lange conditie achter if over meerdere regels spreiden om het leesbaarder te maken. Zet de conditie dan tussen ( en ), bijvoorbeeld
@@ -433,15 +435,15 @@ if (x > 100 and
 -	Je kunt de y-snelheid negatief maken door een eventuele min eraf te halen en dan keer -1 te doen. De functie abs(getal) geeft als resultaat een getal zonder min. Dus abs(-2) is 2 en abs(2) is ook 2. Dus abs(ball_speed_y) * -1 geeft de negatieve waarde van de y-snelheid. 
 -	Wat doet het algoritme als de bal tegen de zijkant van de plank kaatst? Wat zou je in het echt verwachten?
 -	Hou het algoritme voor nu simpel, je kunt het bij de uitbreidingen nog aanpassen. 
-:::
+````
 
 ## Stap 8. Stop het spel als je af bent
 
-:::{note} Opdracht
+````{note} Opdracht
 Zorg dat je af bent als de bal de onderkant van het scherm raakt. Voeg daarvoor code toe die kijkt of de onderkant van de bal voorbij de onderkant van de plank is. Als dat waar is, dan zet je code de snelheid van de bal op 0. Op die manier stopt het spel zodra je de bal langs de plank hebt laten gaan.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Een logische plek voor je nieuwe code is onder afhandelen van botsingen en voor je begint met tekenen. Dat is op de plek van de <<hier toevoegen>> in onderstaande stukjes.
 ```python
     # move everything
@@ -453,21 +455,21 @@ Een logische plek voor je nieuwe code is onder afhandelen van botsingen en voor 
     # draw everything
     ...
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Bovenaan het scherm is y gelijk aan 0. Hoe verder je naar beneden op het scherm komt, hoe groter het getal y wordt. De y-coördinaat van de bovenkant van de bal bewaar je in de variabele ball_y. De hoogte van de bal bewaar je in BALL_HEIGHT. Hoe bereken je de y-coördinaat van de onderkant van de bal?
 -	Wat gebeurt er met de code die de bal tegen de onderkant van het scherm laat stuiteren? Wordt die code nog uitgevoerd? 
-:::
+````
 
 ## Stap 9. Toon een bericht als je af bent
 
-:::{note} Opdracht
+````{note} Opdracht
 Zet een bericht op het scherm als de speler af is. Dat is duidelijker voor de speler.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Deze drie stukjes code zetten een bericht op het scherm. Kopieer en plak ze op de juiste plekken.
 ```python
 # define global variables
@@ -484,59 +486,63 @@ game_status_msg = "You lost!"
 game_status_img = font.render(game_status_msg, True, 'green')
 screen.blit(game_status_img, (0, 0)) # (0, 0) is top left corner of screen
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Je kunt tijdens het spelen een ander bericht op het scherm zetten, bijvoorbeeld: 
 game_status_msg = "Speel met [A] en [D]"
 -	Je kunt het bericht netjes in het midden van de regel uitlijnen met een berekening met SCREEN_WIDTH en game_status_img.get_width().
-:::
+````
 
-# Basisstappen 10 t/m 14: het eerste blok
+# Stap 10-14: eerste blok
+```{pull-quote}
 Het spel bevat alleen nog maar een plank en een bal, maar geen blokken… Het wordt tijd om het eerste blok toe te voegen!
- 
+```
+
+```{figure} scherm4.png
 Schermafdruk van spelletje met basisstap 10 t/m 14.
+```
 
 ## Stap 10. Teken een blok in het veld
 
-:::{note} Opdracht
+````{note} Opdracht
 Teken een blok op het scherm. Gebruik de variabele brick_img om het plaatje van het blok op te slaan. Maak en gebruik de constanten BRICK_WIDTH en BRICK_HEIGHT voor de breedte en hoogte van het blok. Het blok is 96 pixels breed en 32 pixels hoog. Maak en gebruik de variabelen brick_x en brick_y voor de linkerbovenhoek van het blok. Kies zelf op welke plaats je het blok op het scherm wilt zetten.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Bekijk “Stap 4. Teken de plank” als je er niet uitkomt.
-:::
+````
 
 ## Stap 11. Detecteer als de bal het blok raakt
 
-:::{note} Opdracht
+````{note} Opdracht
 Druk een tekst af in de terminal als de bal het blok raakt.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Een tekst in de terminal afdrukken doe je zo:
 ```python
 print('brick touched at ball_x = ' + str(ball_x) + ' and ball_y = ' + str(ball_y))
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Bekijk “Stap 7. Stuiter de bal tegen de plank” als je niet meer weet hoe je kunt zien dat twee voorwerpen elkaar raken.
 -	Python plakt teksten aan elkaar als je ze optelt. De functie str zet een getal om in een string. Deze functie heb je nodig, omdat Python getallen en strings niet automatisch bij elkaar optelt; je krijgt dan een foutmelding.
 -	Meer informatie over het printen van tekst vind je op https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/
 -	Je vraagt je misschien af hoe je het blok weghaalt. Dat leer je in “Stap 20, Haal een blok weg als de bal een blok raakt”.
-:::
+````
 
 ## Stap 12. Stuiter de bal omhoog als hij het blok raakt
 
-:::{note} Opdracht
+````{note} Opdracht
 Stuiter de bal omhoog als hij van boven aankomt en een blok raakt. Ga ervan uit dat de beweging van de bal in de x- en y-richting minder pixels per frame is dan de breedte en hoogte van de bal. Dat betekent dat er altijd een stukje van de bal buiten het blok is. De stuiter vanaf beneden, links en rechts ga je in de volgende stappen toevoegen.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Pseudo-code
 ```pseudo
 als de bal het blok raakt :
@@ -549,23 +555,24 @@ als de bal het blok raakt :
 De schuingedrukte regels heb je al gemaakt in de vorige stap. De rest moet je nog toevoegen.
 
 Er zit twee keer “als” in de pseudo-code. De tweede “als” wordt alleen uitgevoerd als de eerste “als” waar is. Je kunt deze code combineren in één “als”, door de condities uit beide “als”-en aan elkaar te knopen met “and”. In de volgende stappen ga je zien dat dat in dit geval minder duidelijk is, omdat er dan dubbele code ontstaat.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Met if ball_speed_y > 0 : kun je kijken of de bal naar onder beweegt.
 -	De bovenkant van de bal is ball_y.
 -	De bovenkant van het blok is brick_y.
 -	maak snelheid_y omhoog betekent dat snelheid_y een negatief getal (een getal kleiner dan 0) moet zijn. Gebruik daarvoor de functie abs(). Kijk in stap 7 en stap 3 als je niet meer weet hoe je abs() kunt gebruiken
 -	Kun je uitleggen waarom de code bij de tweede “als” kijkt of er een stukje bal buiten het blok zit, in plaats van te kijken of er een stukje bal binnen het blok zit?
-:::
+````
 
 ## Stap 13. Stuiter de bal omlaag als hij het blok raakt
 
-:::{note} Opdracht
+````{note} Opdracht
 Voeg code toe die de bal omlaag stuitert als hij van beneden aankomt en een blok raakt. 
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Pseudo-code
 ```pseudo
 als de bal het blok raakt :
@@ -579,23 +586,23 @@ als de bal het blok raakt :
 ```
 
 De schuingedrukte regels heb je al gemaakt in de vorige stap. De rest moet je nog toevoegen. Bij de vorige stap checkt je code of er een stuk van de bal binnen het blok zat. De code die je in deze stap toevoegt checkt welk stuk van de bal buiten het blok zit.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Met elif ball_speed_y < 0 : kun je kijken of de bal naar boven beweegt.
 -	De onderkant van de bal is ball_y + BALL_HEIGHT.
 -	De onderkant van het blok is brick_y + BRICK_HEIGHT.
 -	maak snelheid_y omlaag betekent dat snelheid_y een positief getal (een getal groter dan 0) moet zijn. Gebruik daarvoor de functie abs(). Kijk in stap 7 en stap 3 als je niet meer weet hoe je abs() kunt gebruiken
-:::
+````
 
 ## Stap 14. Stuiter de bal links of rechts als hij het blok raakt
 
-:::{note} Opdracht
+````{note} Opdracht
 Voeg code toe die de bal stuitert als hij van links of rechts aankomt en een blok raakt. 
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Pseudo-code
 ```pseudo
 als de bal het blok raakt :
@@ -615,27 +622,31 @@ als de bal het blok raakt :
 ```
 
 De schuingedrukte regels heb je al gemaakt in de vorige stap. De rest moet je nog toevoegen. {xxx-check-xxx}
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Kijk naar de vorige 2 stappen, kopieer de code en pas hem aan zodat hij voor x werkt in plaats van voor y.
 -	maak snelheid_x links betekent dat snelheid_x een negatief getal (een getal kleiner dan 0) moet zijn. maak snelheid_x rechts betekent dat snelheid_x een postief getal (een getal groter dan 0) moet zijn. Gebruik daarvoor de functie abs(). Kijk in de vorige stap als je niet meer weet hoe je deze functie gebruikt.
 -	Er zijn andere pseudo-codes mogelijk die een bal die ergens tegenaan botst laten stuiteren. Kun jij er eentje bedenken? Wat zijn de voor- en nadelen ten opzichte van de code uit deze stap?
-:::
+````
 
-# Basisstappen 15 t/m 19: meer blokken
+# Stap 15-19: meer blokken
+```{pull-quote}
 Eén blok is leuk, maar meer blokken is nog leuker! We gaan stap voor stap blokken toevoegen.
- 
+```
+
+```{figure} scherm5.png
 Schermafdruk van spelletje met basisstap 15 t/m 19.
+```
 
 ## Stap 15. Maak een tweede blok
 
-:::{note} Opdracht
+````{note} Opdracht
 Maak een tweede blok. Gebruik daarvoor de waarden van de variabelen brick_x2 en brick_y2. In dit spel zien alle blokken er hetzelfde uit, daardoor kun je brick_img, BRICK_WIDTH en BRICK-HEIGHT gebruiken voor alle blokken.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Om een tweede blok te maken, moet je drie stukken code kopiëren en aanpassen.
 
 Code om plaats van blok te onthouden
@@ -657,23 +668,23 @@ Code om blok te tekenen:
 # draw bricks
 screen.blit(brick_img, (brick_x, brick_y))
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Verander eerst overal in de code brick_x en brick_y door brick_x1 en brick_y1. Als je dat goed doet, dan werkt je code nog hetzelfde. Dit helpt je om te zien waar je allemaal extra code moet toevoegen voor een tweede blok.  
 -	Begin met het maken van variabelen brick_x2 en brick_y2.
 -	Voeg een regel toe om het nieuwe blok te tekenen
 -	Kopieer de code die de botsing tussen bal en blok afhandelt. Pas de kopie aan zodat hij werkt met het tweede blok.
-:::
+````
 
 ## Stap 16. Zet blokken in genummerde lijsten
 
-:::{note} Opdracht
+````{note} Opdracht
 Gebruik een lijst met de naam bricks_x voor de variabelen brick_x1 en brick_x2. Gebruik een genummerde lijst met de naam bricks_y voor de variabelen brick_y1 en brick_y2. Deze stap is een voorbereiding op het gebruik van loops. Die ga je gebruiken in de volgende stap. Met loops verdwijnt de dubbele code die je in de vorige stap voor het tweede blok gemaakt hebt.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Code om een lijst met twee elementen te definiëren:
 ```python
 bricks_x = [96, 192]
@@ -687,20 +698,20 @@ bricks_x[1]
 Het eerste element van de lijst bricks_x heeft als index het getal nul, het tweede element heeft als index één, het derde element heeft index twee enzovoort. Deze code geeft de waarde van het tweede element uit de lijst. Die waarde is 192.
 
 Maak een lijst bricks_y op dezelfde manier als je bricks_x hebt gemaakt.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Let op de index van de elementen uit de lijst. Het 1e element heeft index 0, het 2e element heeft index 1, het 3e element heeft index 2 enzovoort. 
-:::
+````
 
 ## Stap 17. Gebruik for-loop bij blokken tekenen
 
-:::{note} Opdracht
+````{note} Opdracht
 Maak met het commando for een loop die alle blokken tekent. 
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Eenvoudige code om met een loop alle elementen in de lijst af te drukken:
 ```python
 for brick_x in bricks_x : 
@@ -714,54 +725,58 @@ for i in range(0, len(bricks_x)) :
     print('bricks_x[' + str(i) + '] = ' + str(bricks_x[i]))
 ```
 Deze code doorloopt de lijst van voor naar achter en slaat het nummer van het element uit de lijst op in de variabele i.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Voeg bij code voor het tekenen van de blokken een for-loop toe die alle blokken tekent. Daarvoor heb je één teken-commando binnen de for-loop nodig.
 -	Let op dat je de teken-commando inspringt.
 -	Vergeet de oude regels die de blokken tekende niet te verwijderen.
-:::
+````
 
 ## Stap 18. Gebruik for-loop bij botsing tegen blokken
 
-:::{note} Opdracht
+````{note} Opdracht
 Maak met het commando for een loop die botsingen van de bal met alle blokken afhandelt.
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Kijk bij de vorige stap hoe je een for-loop maakt.
 -	Let op dat je goed inspringt.
-:::
+````
 
 ## Stap 19. Maak een veld met 24 blokken
 
-:::{note} Opdracht
+````{note} Opdracht
 Voeg 20 nieuwe blokken toe, zodat je een veld krijgt met 24 blokken.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 In de vorige stap wordt het aantal elementen in de lijst berekend met len(bricks_x). Daardoor hoef je nu maar heel weinig aan te passen om blokken toe te voegen. Je hoeft alleen elementen toe te voegen aan de definities van de lijsten.
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	De lijsten bricks_x en bricks_y moeten evenveel elementen bevatten.
 -	De definitie van lijsten kun je over meerdere regels verdelen. Op alle plaatsen waar een spatie is toegestaan, mag je op een nieuwe regel beginnen.
-:::
+````
 
-# Basisstappen 20 t/m 21: winnen
+# Stap 20-21: winnen
+```{pull-quote}
 Om het spel uit te kunnen spelen, moeten de blokken verdwijnen. Laten we dat gaan toevoegen.
- 
+```
+
+```{figure} scherm6.png
 Schermafdruk van spelletje met basisstap 20 t/m 21.
+```
 
 ## Stap 20. Haal een blok weg als de bal een blok raakt
 
-:::{note} Opdracht
+````{note} Opdracht
 Verwijder een blok dat geraakt is uit de lijst, zodat het uit het veld verdwijnt. Stop de for-loop met break, zodra er een blok verwijderd is. 
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 Code om het 1e element te verwijderen uit een lijst:
 ```python
   bricks_x.pop(0)
@@ -771,36 +786,38 @@ Code om het 1e element te verwijderen uit een lijst:
 Code om het 2e element te verwijderen uit een lijst:
   bricks_x.pop(1)
 ```
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Gebruik i om het nummer van het element dat je wilt verwijderen aan te geven.
 -	Verwijder een element uit de lijst bricks_x en verwijder een element uit de lijst bricks_y. 
 -	Als je nadat je een blok verwijderd hebt, het commando break gebruikt, dan wordt er maar één blok per frame verwijdert. De bal kan twee blokken tegelijk raken, maar elk frame gaat zo snel, dat je daar niks van ziet. Als je geen break gebruikt, dan krijg je een “index out of range” foutmelding, omdat je verderop in de for-loop probeert een element uit de lijst te gebruiken dat er niet meer is.
-:::
+````
 
 ## Stap 21. Toon bericht als je wint
 
-:::{note} Opdracht
+````{note} Opdracht
 Als alle blokken weg zijn, dan heb je het level uitgespeeld. Stop de beweging van de bal en toon een bericht dat het level is uitgespeeld.
-:::
+````
 
-:::{attention} Toelichting
+````{attention} Toelichting
 De code len(bricks_x) geeft het aantal elementen in de lijst bricks_x. 
-:::
+````
 
-:::{hint} Tips
+````{hint} Tips
 :class: dropdown
 -	Als je niet weet hoe je de bal stopt, kijk dan bij “Stap 8. Stop het spel als je af bent”
 -	Als je niet weet hoe je een bericht op het scherm zet, kijk dan bij “Stap 9. Toon een bericht als je af bent”
 -	Gebruik if len(bricks_x) == 0 : om te kijken of alle blokken weg zijn. 
 -	Kun je in plaats van if len(bricks_x) == 0 : ook if len(bricks_y) == 0 : gebruiken?
-:::
+````
 
 # Uitbreidingen
 
+```{figure} scherm7.png
 Voorbeeld van een spelletje met uitbreidingen.
+```
 
 Nu je basisgame af is kan het echte werk beginnen. Voeg een aantal uitbreidingen toe aan je game. Gebruik je creativiteit en laat zien dat je complexere code aankunt. Een aantal voorbeelden van uitbreidingen zijn hieronder aangeven, maar je kunt ook uitbreidingen toevoegen die je zelf hebt bedacht. Het aantal 🌜(maan) geeft aan hoe moeilijk de code voor de uitbreiding is. Het aantal 🌞 (zon) geeft aan hoeveel functionaliteit het toevoegt. Overleg met je docent welke uitbreidingen je kunt gaan maken.
 

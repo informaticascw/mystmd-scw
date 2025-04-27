@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Stop script as soon as any command returns error
-set -e
+# set -e
 
 echo "Checking for myst to be installed"
 
