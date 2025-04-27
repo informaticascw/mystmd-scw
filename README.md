@@ -9,7 +9,7 @@ Repository to start developing a book with MySTmd in a Codespace
 5. Edit files in /my-book to edit the book
 6. Check output in preview of VSCode (many MyST features not supported)
 7. Check output in browser with MyST-server
-8. Double check output in browser with MyST-static by executing `myst build --html`
+8. Double check output in browser with MyST-static by executing `myst build --html` and `npx -y http-server _build/html -c-1`
 9. Push to github will deploy on github pages using `myst build --html`
 
 ## how this repo was created
