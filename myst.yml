@@ -20,8 +20,8 @@ project:
       children:
         - pattern: 2-webshop/*-*.md
     - file: 3-gdevelop/root.md
-      children:
-        - pattern: 3-gdevelop/*-*.md
+      #children:
+        #- pattern: 3-gdevelop/*-*.md
     - file: 10-help/root.md
       children:
         - pattern: 10-help/*-*.md
