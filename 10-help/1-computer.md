@@ -1,12 +1,6 @@
-+++
-title = "Mijn computer doet het niet"
-weight = 99
-+++
+# Computerproblemen
 
 Hier vind je oplossingen voor als je computer het niet doet bij het vak informatica.
-
-<!--more-->
-# Help
 
 ## PC in computerlokaal
 

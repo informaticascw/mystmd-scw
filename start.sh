@@ -45,10 +45,10 @@ while true; do
         sleep 0.2
     done
 
-    echo "Waiting for changes..."
-
     # build new html files
     myst build --html
+
+    echo "Waiting for changes..."
 
     # wait for change 
     inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f'

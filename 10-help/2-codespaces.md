@@ -1,21 +1,12 @@
-+++
-title = "GitHub met Codespaces en VS Code"
-weight = 12
-+++
+# Codespaces
 
 GitHub is een website waar je code kunt opslaan en delen. Codespaces is een codeeromgeving binnen GitHub waar je code kunt wijzigen en uitvoeren. Codespaces maakt gebruik van de webversie van de editor Visual Studio Code.
-<!--more-->
 
 ## 1. Wat zijn GitHub, Codespaces en VS Code?
 
 | Screenshot van Github | Screenshot van Codespace |
 | --- | --- |
-| ![github.png](github.png) | ![codespace.png](codespace.png) |
-```{image} https://github.com/rowanc1/pics/blob/main/grapes-wide.png?raw=true
-:alt: Grapes on a vineyard
-:width: 300px
-:align: right
-```
+| ![github.png](../10-help/github.png) | ![codespace.png](../10-help/codespace.png) |
 
 ##### GitHub is een website waar je code kunt opslaan en delen.
 - GitHub bewaart alle oude versies van je code.
@@ -40,7 +31,7 @@ GitHub is een website waar je code kunt opslaan en delen. Codespaces is een code
 
 ## 2. Starten met een opdracht
 
-![inschrijven.png](inschrijven.png)
+![inschrijven.png](../10-help/inschrijven.png)
 
 ### 2.1 Maak een account in GitHub
 1. Ga naar https://www.github.com/ (gebruik bij voorkeur Chrome).
@@ -61,7 +52,7 @@ GitHub is een website waar je code kunt opslaan en delen. Codespaces is een code
 
 Als je een Codespace start, dan zie je het scherm van VS Code in je browser.
 
-![vscode screenshot](vscode.png)
+![vscode screenshot](../10-help/vscode.png)
 Op bovenstaande plaatje zie je het scherm van VS Code met de volgende onderdelen:
 - (A) Activity Bar, klik op het bovenste icoon (Explorer) om je mappen en bestanden te zien, klik op het derde icoon (Source Control) van boven om te werken met GitHub
 - (C) Editor Groups, hier verschijnen de bestanden die je opent.
@@ -94,7 +85,7 @@ Het hangt van de programmeertaal af hoe je kunt bekijken wat je code voor result
 
 ## 4. Samenwerken
 
-![samenwerken.png](samenwerken.png)
+![samenwerken.png](../10-help/samenwerken.png)
 
 ### 4.1 Een team van één persoon
 Bewaar nieuwe versies van je code steeds in Github. Dan heb heb je een backup als er iets misgaat in Codespaces.
@@ -138,95 +129,109 @@ Het werkt in grote teams handiger als je het werk verdeelt in branches. Vraag hi
 
 *Ik wil een nieuw bestand maken, de naam van een bestand veranderen, een bestand uploaden, bestanden downloaden of andere dingen met bestanden of mappen doen. Hoe doe ik dat?*
 
-{{% expand "Bestanden bekijken" %}}
+```{tip} Bestanden bekijken
+:class: dropdown
 1. Open Codespaces.
 2. In de kolom met iconen links op je scherm zie je bovenaan een icoontje met twee velletjes papier. Klik daarop. Je ziet nu een lijst met al je bestanden en mappen. Mappen kun je uitklappen. 
 3. Als je dubbelklikt op een bestand, dan wordt het geopend. 
 4. Als je met je rechtermuisknop op een bestand of map klikt, dan verschijnt er een drop-down menu waarin je meer met het bestand of de map kunt doen.
-{{% /expand %}}
+```
 
-{{% expand "Nieuw bestand of map maken" %}}
+```{tip} Nieuw bestand of map maken
+:class: dropdown
 1. Open Codespaces.
 2. In de kolom met iconen links op je scherm zie je bovenaan een icoontje met twee velletjes papier. Klik daarop. Je ziet nu een lijst met al je bestanden en mappen. Mappen kun je uitklappen. 
 3. Als je muis op de lijst met bestanden staat, dan zie je vlak boven de lijst twee icoontjes met een +. Als je op de linker klikt, dan maak je een nieuw bestand. Als je op de rechter klikt, dan maak je een nieuwe map.
-{{% /expand %}}
+```
 
-{{% expand "Naam van bestand of map wijzigen" %}}
+```{tip} Naam van bestand of map wijzigen
+:class: dropdown
 1. Open Codespaces.
 2. In de kolom met iconen links op je scherm zie je bovenaan een icoontje met twee velletjes papier. Klik daarop. Je ziet nu een lijst met al je bestanden en mappen. Mappen kun je uitklappen. 
 3. Klik met de rechtmuisknop op een bestand of map. Er verschijnt een drop-down menu. Kies "Rename..." in het pull-down menu. Pas de naam aan en druk op Enter.
-{{% /expand %}}
+```
 
-{{% expand "Bestanden verplaatsen" %}}
+```{tip} Bestanden verplaatsen
+:class: dropdown
 1. Open Codespaces.
 2. In de kolom met iconen links op je scherm zie je bovenaan een icoontje met twee velletjes papier. Klik daarop. Je ziet nu een lijst met al je bestanden en mappen. Mappen kun je uitklappen. 
 3. Sleep het bestand van de ene naar de andere map.
-{{% /expand %}}
+```
 
-{{% expand "Bestand uploaden naar Codespaces" %}}
+```{tip} Bestand uploaden naar Codespaces
+:class: dropdown
 1. Open Codespaces.
 2. In de kolom met iconen links op je scherm zie je bovenaan een icoontje met twee velletjes papier. Klik daarop. Je ziet nu een lijst met al je bestanden en mappen. Mappen kun je uitklappen. 
 3. Sleep een bestand van je bureaublad naar het lijstje bestanden in Codespaces.<br>
 Als stap 3 niet werkt, probeer dan stap 4.
 4. Ga op een map staan, klik op de rechtermuisknop, een pull-down menu verschijnt, kies "Upload..." in het pull-down menu.
-{{% /expand %}}
+```
 
-{{% expand "Bestand downloaden uit Codespaces" %}}
+```{tip} Bestand downloaden uit Codespaces
+:class: dropdown
 1. Open Codespaces.
 2. In de kolom met iconen links op je scherm zie je bovenaan een icoontje met twee velletjes papier. Klik daarop. Je ziet nu een lijst met al je bestanden en mappen. Mappen kun je uitklappen. 
 3. Ga op een bestand staan, klik op de rechtermuisknop, een pull-down menu verschijnt, kies "Download..." in het pull-down menu.
-{{% /expand %}}
+```
 
-{{% expand "Alle bestanden downloaden" %}}
+```{tip} Alle bestanden downloaden
+:class: dropdown
 1. Open GitHub, ga naar de pagina met je repository.
 2. Klik op de groene knop "Code" en kies in het menu dat verschijnt voor "Download ZIP".
 3. Dubbelklik op het gedownloade zip-bestand om alle bestanden uit te pakken.
-{{% /expand %}}
+```
 
 ### 5.2 github.com gebruiken
 
-{{% expand "Hoe open ik mijn laatste Codespace?" %}}
+```{tip} Hoe open ik mijn laatste Codespace?
+:class: dropdown
 1. Open GitHub en login.
 2. Klik op de drie streepjes links bovenin. Een menu opent.
 3. Klik in het menu op Codespaces. Er wordt een lijst al je Codespaces getoond
 4. Klik op de Codespace die je wilt openen. Het openen duurt één a twee minuten.
-{{% /expand %}}
+```
 
-{{% expand "Hoe maak ik een nieuwe Codespace?" %}}
+```{tip} Hoe maak ik een nieuwe Codespace?
+:class: dropdown
 1. Open GitHub en login. Ga naar je repository.
 2. Klik op de groen knop "Code", een popup menu verschijnt.
 3. Kies het tabje "Codespaces" in het menu.
 4. Klik op de groen knop "Create Codespace" (die zie je als je nog geen Codespace van deze repository hebt), klik op "+" als je die knop er niet is.
 5. De nieuwe Codespace wordt gemaakt en al je code uit GitHub wordt naar de Codespace gekopieerd. Dit duurt één a twee minuten.
-{{% /expand %}}
+```
 
-{{% expand "Waar staat mijn repository?" %}}
+```{tip} Waar staat mijn repository?
+:class: dropdown
 1. Open GitHub en login
 2. Links in het scherm staan de repo's die je recent en vaak gebruikt hebt. Door op een repo te klikken wordt deze geladen. De link van de repo staat bovenin je browser.
 3. Als je in een team aan een repo werkt, klik dan links op het team, daarna bovenin je scherm op repositories
-{{% /expand %}}
+```
 
-{{% expand "Lijst met commits bekijken" %}}
+```{tip} Lijst met commits bekijken
+:class: dropdown
 1. Open GitHub, ga naar de pagina met je repository.
 2. Een lijst met de laatste wijzigingen krijg je door te klikken op het aantal commits, onder de groene knop met "Code". Van elke commit kun je zien wat er is gewijzigd, klik daarvoor op het nummer van de commit aan het einde van de regel.
-{{% /expand %}}
+```
 
-{{% expand "Oude versie van je repository bekijken" %}}
+```{tip} Oude versie van je repository bekijken
+:class: dropdown
 1. Open GitHub, ga naar de pagina met je repository.
 2. Een lijst met de laatste wijzigingen krijg je door te klikken op het aantal commits, onder de groene knop met "Code". 
 3. Klik op `<>` achter een commit naar keuze. Je ziet nu de versie van de repository op het moment van de commit.
-{{% /expand %}}
+```
 
 ### 5.3 Overige vragen en problemen
 
-{{% expand "GitHub 404 fout oplossen" %}}
+```{tip} GitHub 404 fout oplossen
+:class: dropdown
 
 *Ik heb via email een link ontvangen om toegang te krijgen tot een repo, maar als ik op de link druk dan krijg ik een 404 fout. Wat moet ik doen?*
 
 Login op GitHub en druk daarna nogmaals op de link.
-{{% /expand %}}
+```
 
-{{% expand "Merge conflict oplossen" %}}
+```{tip} Merge conflict oplossen
+:class: dropdown
 
 *Ik heb een merge conflict, hoe los ik dat op?*
 
@@ -238,25 +243,28 @@ Als je er met de video niet uitkomt en er is niemand in de buurt die je kan help
 - Knip en plak de wijzigingen van je oude Codespace naar je nieuwe Codespace. 
 - Test of je code het doet, haal de fouten eruit. 
 - Bewaar je wijzigingen in GitHub door in je nieuwe Codespace op Commit en Sync te klikken.
-{{% /expand %}}
+```
 
-{{% expand "Scherm delen" %}}
+```{tip} Scherm delen
+:class: dropdown
 *Ik wil mijn scherm delen met iemand anders, hoe doe ik dat?*
 
 In de iconenbalk links op je scherm zie een soort gebogen pijl. Dit is de extension "live-share". Hiermee kun je je scherm delen met andere GitHub gebruikers. 
 
 Deze functie is bedoeld om samen snel een klein probleem op te lossen. Gebruik hem niet meer dan een paar minuten per les. Echte programmeurs verdelen het werk, maken elk hun eigen stuk code in hun eigen Codespace en delen het dan via GitHub. Dat moet jij ook leren.
-{{% /expand %}}
+```
 
-{{% expand "Automatisch inspringen" %}}
+```{tip} Automatisch inspringen
+:class: dropdown
 
 1. Open een bestand in VS Code
 2. Klik in het bestand op de rechtermuisknop. Er verschijnt een pop-up menu.
 3. Klik in het menu op Format Document. Het document wordt aangepast zodat de code netjes inspringt.
 
-{{% /expand %}}
+```
 
-{{% expand "Hoeveel gratis usage heb ik nog?" %}}
+```{tip} Hoeveel gratis usage heb ik nog?
+:class: dropdown
 Per maand krijg je gratis usage voor allerlei dingen, de belangrijkste voor jou zijn:
 - Aantal repositories in GitHub: onbeperkt
 - Hoeveelheid opslag in GitHub: onbeperkt
@@ -269,14 +277,15 @@ Je kunt zien hoeveel usage je nog hebt op:
 Om onnodige usage te voorkomen is GitHub als volgt ingesteld:
 - Een Codespace die je een half uur open hebt staan zonder dat je erin werkt wordt automatisch gesloten (niet gewist).
 - Een Codespace die je twee weken niet opent wordt automatische gewist.
-{{% /expand %}}
+```
 
-{{% expand "Mijn gratis usage is op" %}}
+```{tip} Mijn gratis usage is op
+:class: dropdown
 Je kunt 3 dingen doen:
 - Een tweede account aanmaken, je docent kan dat account toeveogen als collaborator aan de repo waarin je werkte.
 - Bijbetalen, dit is vooral handig voor docenten. Je moet een creditcard invoeren en kunt een maximum bedrag per maand instellen.
 - Verder werken in een lokaal geïnstalleerde VS Code met Docker, hiervoor heb je een PC of laptop nodig en moet je handig zijn met VS Code en Docker.
-{{% /expand %}}
+```
 
 ### 5.4 Documentatie
 *Waar vind ik meer documentatie?*

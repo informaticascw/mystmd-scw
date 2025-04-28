@@ -1,13 +1,5 @@
-+++
-title = "Gdevelop Game Opdracht"
-weight = 3
-+++
-
-Hier vind je informatie over de G -evelop game opdracht. 
-
-<!--more-->
-
 # G-develop
+Hier vind je informatie over de G-develop game opdracht. 
 
 ## Informatie voor leerlingen
 
