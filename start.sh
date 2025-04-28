@@ -28,14 +28,9 @@ npx -y http-server _build/html -c-1 &
 echo "Watching files (ignoring hidden and _ folders)..."
 
 while true; do
-    inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f'
 
-    while inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f' -t 10; do
-        :
-    done
-
-    echo "No more changes detected, building..."
-
+    echo "Building html..."
+    
     # kill process on port 3000
     fuser -k 3000/tcp
     # Wait untill port 3000 is available
@@ -50,7 +45,17 @@ while true; do
         sleep 0.2
     done
 
+    echo "Waiting for changes..."
+
     # build new html files
     myst build --html
+
+    # wait for change 
+    inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f'
+
+    # wait untill there are no more changes for 10 seconds
+    while inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f' -t 10; do
+        :
+    done
 
 done
