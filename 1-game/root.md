@@ -1,3 +1,15 @@
+# homepage Game
+
+Opdrachtbeschrijving
+
+gees_at_stanislascollege_punt_nl
+
+29-12-2023, laatste inhoudelijke update 15-7-2024, format aangepast 28-4-2025
+
+```{figure} cover.png
+Plaatje van https://openai.com/chatgpt/
+```
+ 
 +++
 title = "Python Game Opdracht"
 weight = 3
@@ -7,7 +19,7 @@ Hier vind je informatie over de Python Game opdracht. Deze wordt gegeven in peri
 
 <!--more-->
 
-# A. Game
+A. Game
 
 ## Informatie voor leerlingen
 

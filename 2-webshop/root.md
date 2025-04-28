@@ -1,4 +1,4 @@
-# B. Webshop
+# homepage Webshop
 
 Hier vind je informatie over de SQL Webshop opdracht. Deze wordt gegeven aan havo-5 en vwo-5.
 
