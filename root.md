@@ -1,6 +1,4 @@
-# Startpagina
+# Informatica
 
-:::{contents} inhoudsopgave
-:depth: 3
-:::
+Informatica-opdrachten voor leerlingen van het Stanislascollege Westplantsoen in Delft
 
