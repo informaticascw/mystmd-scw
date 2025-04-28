@@ -1,6 +1,6 @@
-## 0. Voor de docent
+# 0. Voor de docent
 
-### 0.1. Voorkennis en leerdoelen
+## 0.1. Voorkennis en leerdoelen
 
 Veronderstelde voorkennis voor leerlingen
 - database: sql (SELECT, JOIN met 3 tabellen, WHERE, CREATE)
@@ -25,7 +25,7 @@ Leerdoelen in meer detail
 - Begrijpen wat DOM manipulatie met de javascript is
 - Aanpassen van gegeven javascript programma's die DOM manipulatie doen
 
-### 0.2. Lesplanner
+## 0.2. Lesplanner
 
 Hoofdstuk|Aantal lessen|Basis of optioneel
 --|--|--
@@ -44,7 +44,7 @@ Opmerkingen:
 - Hoofdstukken 5 en 6 staan los van elkaar maar bouwen door op hoofdstuk 1, 2, 3 en 4.
 - Hoofdstuk 7 kan worden gedaan als 5 en 6 zijn overgeslagen, maar niet alle voorgestelde extra's zullen voor alle leerlingen haalbaar zijn.
 
-### 0.3. Startcode en uitwerking
+## 0.3. Startcode en uitwerking
 
 Startcode volgt
 
@@ -53,11 +53,11 @@ Uitwerking volgt
 Een concept (work in progress) van de code staat op 
 [https://github.com/informaticascw/h5v5-sql-webshop-template](https://github.com/informaticascw/h5v5-sql-webshop-template)
 
-### 0.4. Beoordelingsmodel
+## 0.4. Beoordelingsmodel
 
 volgt
 
-### 0.5. Ontwikkelomgeving inrichten
+## 0.5. Ontwikkelomgeving inrichten
 
 Minimale variant voor docenten die niet eerder gewerkt hebben met GitHub.
 - Laat leerlingen 1 account per groepje maken

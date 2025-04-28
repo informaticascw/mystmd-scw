@@ -1,9 +1,9 @@
-## 5. Filters maken
+# 5. Filters maken
 
-### 5.1 REST API (uitleg)
+## 5.1 REST API (uitleg)
 
 :::{note} Uitleg
-#### REST
+### REST
 
 API (Engels, spreek uit ee-pie-aai) staat voor Application Programming Interace. Een API is een stuk software dat computerprogramma op een gestandaardiseerde manier met elkaar verbindt. Een API tussen computerprogramma's die via het internet met elkaar zijn verbonden heet een webservice. Een webservice wordt aangeboden door een server en gebruikt door één of meerdere clients. Moderne webservices zijn RESTful (Engels, spreek uit als rest-foel). REST staat voor REpresentational State Transfer, maar meestal wordt alleen de afkorting gebruikt. REST is geen protocol maar een set ontwerp-richtlijnen.
 
@@ -23,7 +23,7 @@ Hier volgen enkele ontwerp-richtlijnen van REST.
 
 Clients en servers met REST API's communiceren met HTTP. Dit is hetzelfde protocol dat webbrowsers gebruiken om een webpagina van een server op te vragen. De client verstuurt een HTTP-request naar de server. De server antwoordt met een HTTP-response.
 
-#### HTTP-request
+### HTTP-request
 
 Een request is een bericht van de client (bijvoorbeeld een browser of app) naar de server (API). Hiermee vraag je iets op, voeg je iets toe, of verander/verwijder je iets.
 
@@ -40,7 +40,7 @@ Een request bestaat uit:
  - Authorization: Bevat een token of API-key voor toegang tot beveiligde data
 - Body (optioneel): De gegevens die je meestuurt, bijvoorbeeld een JSON-object bij POST of PUT.
 
-#### HTTP-response
+### HTTP-response
 
 Een response is het antwoord van de server op het verzoek van de client.
 
@@ -54,7 +54,7 @@ Een response bevat:
 - Headers: Extra info over het antwoord, zoals het dataformaat
 - Body: De gegevens die teruggestuurd worden (bijv. een lijst, een bevestiging of een foutmelding)
 
-#### Structuur van endpoints
+### Structuur van endpoints
 
 Er zijn geen harde regels voor de structuur van endpoints. Er zijn wel tips die helpen bij het maken van een goede structuur. 
 
@@ -104,11 +104,11 @@ Houd het consistent
 : Gebruik een duidelijke en eenduidige structuur door je hele API. Als je bijvoorbeeld `/producten` gebruikt, noem het dan niet ergens anders `/artikelen`.
 :::
 
-### Maak filters voor soort
+## Maak filters voor soort
 
-### Maak filters voor kleur
+## Maak filters voor kleur
 
-### 5.4 Extra gegevens in een request (uitleg)
+## 5.4 Extra gegevens in een request (uitleg)
 
 Bij het gebruiken van een REST API kun je informatie op verschillende manieren meegeven in een request. Hier zijn de drie meest gebruikte manieren:
 
@@ -140,4 +140,4 @@ Bij het gebruiken van een REST API kun je informatie op verschillende manieren m
         - `PUT /gebruikers/42` → gebruiker met ID 42 aanpassen
     - De data staat niet in de link, maar wordt meegestuurd in de inhoud van het verzoek.
 
-### Zorg dat filters werken (copy code)
+## Zorg dat filters werken (copy code)

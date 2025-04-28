@@ -1,14 +1,14 @@
-## 6. front end aanpassingen
+# 6. front end aanpassingen
 
-### Pas kleuren aan (css)
+## Pas kleuren aan (css)
 
-### Maak aparte bestelpagina (html)
+## Maak aparte bestelpagina (html)
 
-### 6.3 DOM
+## 6.3 DOM
 
 :::{note} Uitleg
 
-#### Wat is de DOM?
+### Wat is de DOM?
 
 De DOM (Document Object Model) is een boomstructuur die je browser maakt van een HTML-pagina.  
 Elke tag in de HTML (zoals `<h1>`, `<div>`, `<p>`) wordt een object in die boom. 
@@ -16,7 +16,7 @@ JavaScript kan via de DOM elementen zoeken, toevoegen, of aanpassen.
 
 JavaScript is een programmeertaal die elke browser begrijpt. Veel webpagina's bevatten JavaScript-code. Je kunt JavaScript-code vinden tussen de tag `<script>` in een `.html`-bestand of in een bestand met een naam die eindigt op `.js`.
 
-#### Objecten zoeken
+### Objecten zoeken
 
 Met JavaScript kun je bestaande elementen op verschillenden manieren in de DOM zoeken, bijvoorbeeld:
 
@@ -25,7 +25,7 @@ element = document.getElementById("mijn-lijst");
 anotherElement = document.querySelector(".knop");
 ```
 
-#### Objecten toevoegen
+### Objecten toevoegen
 
 Je kunt nieuwe elementen maken en aan de DOM toevoegen:
 
@@ -38,7 +38,7 @@ parent.appendChild(newChild);
 
 Hier maak je een nieuw list-item en voeg je die toe aan het einde van de lijst.
 
-#### Objecten wijzigen
+### Objecten wijzigen
 
 Je kunt een DOM-element aanpassen door het in een variabele te stoppen en vervolgens de eigenschappen van het object te veranderen.
 
@@ -53,4 +53,4 @@ Dit verandert de echte knop op de pagina, want `knop` wijst naar het originele o
 
 :::
 
-### Maak aparte pagina per product (javascript)
+## Maak aparte pagina per product (javascript)
