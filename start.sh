@@ -30,7 +30,7 @@ echo "Watching files (ignoring hidden and _ folders)..."
 while true; do
     inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f'
 
-    while inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f' -t 1; do
+    while inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f' -t 10; do
         :
     done
 
