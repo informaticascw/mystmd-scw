@@ -29,6 +29,9 @@ project:
       children:
         - pattern: 100-docenten/*-*.md
 
+  export:
+    - format: pdf
+
 site:
   template: book-theme
   options:
