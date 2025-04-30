@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$DEBOUCE = 5 # number of seconds after last file change to start building
+DEBOUNCE=5 # number of seconds after last file change to start building
 
 # Stop script as soon as any command returns error
 # set -e
@@ -56,7 +56,7 @@ while true; do
     inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f'
 
     # wait untill there are no more changes for 10 seconds
-    while inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f' -t $DEBOUCE; do
+    while inotifywait -r -e close_write --exclude '(/\.|/_).*' . --quiet --format '%w%f' -t $DEBOUNCE; do
         :
     done
 
