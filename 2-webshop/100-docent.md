@@ -76,4 +76,8 @@ Aanbevolen variant voor docenten die ervaring hebben met GitHub Classroom.
 - Opdracht met startcode aanmaken in Github Classroom.
 - Inschrijflink verspreiden onder leerlingen.
 
-Een uitgebreide handleiding, toegespitst op docenten die hun leerlingen deze opdracht willen laten maken, is (nog) niet beschikbaar. Er is veel informatie te vinden op internet, maar het vergt tijd om bekend te raken met de ontwikkelomgeving.
+Docentenhandleiding
+- Een eerste aanzet vind je op\
+https://stanislas.informatica.nu/docenten/codespaces
+- Een uitgebreide handleiding, toegespitst op docenten die hun leerlingen deze opdracht willen laten maken, is (nog) niet beschikbaar. 
+- Er is veel informatie te vinden op internet, maar het vergt tijd om bekend te raken met de ontwikkelomgeving.

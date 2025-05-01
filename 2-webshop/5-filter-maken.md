@@ -9,17 +9,14 @@ API (Engels, spreek uit ee-pie-aai) staat voor Application Programming Interace.
 
 Hier volgen enkele ontwerp-richtlijnen van REST.
 
--  _Platform-onafhankelijk_
+Platform-onafhankelijk
+: REST werkt via standaardprotocollen zoals HTTP en maakt gebruik van eenvoudige dataformaten zoals JSON. Daardoor kunnen verschillende systemen zoals Windows, Linux, iOS en Android probleemloos met elkaar communiceren.
 
-    REST werkt via standaardprotocollen zoals HTTP en maakt gebruik van eenvoudige dataformaten zoals JSON. Daardoor kunnen verschillende systemen zoals Windows, Linux, iOS en Android probleemloos met elkaar communiceren.
+Client-Server scheiding
+: De client (zoals een app of website) en de server (waar de gegevens staan) werken onafhankelijk van elkaar. De client weet alleen wat hij nodig heeft, niet hoe de server dat regelt. Dit maakt onderhoud en ontwikkeling eenvoudiger: de client-zijde (frontend) en server-zijde (backend) kunnen apart worden aangepast.
 
--  _Client-Server scheiding_
-
-    De client (zoals een app of website) en de server (waar de gegevens staan) werken onafhankelijk van elkaar. De client weet alleen wat hij nodig heeft, niet hoe de server dat regelt. Dit maakt onderhoud en ontwikkeling eenvoudiger: de client-zijde (frontend) en server-zijde (backend) kunnen apart worden aangepast.
-
--  _Statusloos_
-
-    Elke aanvraag (request) van de client bevat alle informatie die de server nodig heeft. De server bewaart geen gegevens over vorige aanvragen. Daardoor zijn REST API’s gemakkelijk uit te breiden en te beheren.
+Statusloos
+: Elke aanvraag (request) van de client bevat alle informatie die de server nodig heeft. De server bewaart geen gegevens over vorige aanvragen. Daardoor zijn REST API’s gemakkelijk uit te breiden en te beheren.
 
 Clients en servers met REST API's communiceren met HTTP. Dit is hetzelfde protocol dat webbrowsers gebruiken om een webpagina van een server op te vragen. De client verstuurt een HTTP-request naar de server. De server antwoordt met een HTTP-response.
 
@@ -56,49 +53,27 @@ Een response bevat:
 
 ### Structuur van endpoints
 
-Er zijn geen harde regels voor de structuur van endpoints. Er zijn wel tips die helpen bij het maken van een goede structuur. 
+Een goede structuur van je endpoints zorgt ervoor dat je API bruikbaar blijft als iemand een nieuwe frontend maakt. Er zijn geen regels die een goed structuur garanderen. Er zijn wel richtlijnen die helpen bij het maken van een goede structuur. Hier zijn enkele veelgebruikte richtlijnen.
 
-Hier zijn enkele tips voor de structuur van endpoints.
+Gebruik hiërarchie
+: Geef aan dat iets *onderdeel* is van iets anders:
+: ✅ /gebruikers/42/boeken → alle boeken van gebruiker 42  
+: ✅ /klassen/5v/leerlingen → alle leerlingen in klas 5v
 
-- _Gebruik hiërarchie voor subresources_
+Gebruik queryparameters 
+: Bijvoorbeeld voor filters, sorteren of paginering
+: ✅ /boeken?jaar=2024  
+: ✅ /gebruikers?rol=docent&sort=naam  
 
-    Geef aan dat iets *onderdeel* is van iets anders:
-
-    ✅ /gebruikers/42/boeken → alle boeken van gebruiker 42  
-
-    ✅ /klassen/5v/leerlingen → alle leerlingen in klas 5v
-
-- _Gebruik queryparameters voor filters, sorteren of paginering_
-
-    Bijv. als je iets zoekt of sorteert:
-
-    ✅ /boeken?jaar=2024  
-
-    ✅ /gebruikers?rol=docent&sort=naam  
-
-- _Gebruik zelfstandige naamwoorden in meervoud, geen werkwoorden_
-
-    Endpoints gaan over **resources** (zoals gebruikers, boeken, producten). Gebruik dus meervoud:
-
-    ✅ /gebruikers
-
-    ❌ /gebruiker
-
-    De HTTP-methodes (`GET`, `POST`, enz.) geven al aan *wat* je doet. Dus geen `getGebruiker`, `deleteUser`, enzovoort:
-
-    ✅ /gebruikers
-
-    ❌ /getGebruiker
+Gebruik zelfstandige naamwoorden in meervoud, geen werkwoorden
+: ✅ /gebruikers
+: ❌ /gebruiker
+: ❌ /getGebruiker
 
 Gebruik koppelstreepjes tussen woorden, geen hoofdletters
-
-: Koppeltekens zijn beter leesbaar in linken:
-:    ✅ /middelbare-scholen
-:    ❌ /middelbare_scholen
-
-: Gebruik kleine letters:
-:    ✅ /middelbare-scholen
-:    ❌ /Middelbare-Scholen
+: ✅ /middelbare-scholen
+: ❌ /middelbare_scholen
+: ❌ /Middelbare-Scholen
 
 Houd het consistent
 : Gebruik een duidelijke en eenduidige structuur door je hele API. Als je bijvoorbeeld `/producten` gebruikt, noem het dan niet ergens anders `/artikelen`.

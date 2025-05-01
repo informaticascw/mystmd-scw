@@ -37,18 +37,31 @@ Voor deze opdracht heb je basiskennis nodig van programmeren in Python. Je hebt 
 ```
 Deze opdracht maakt gebruik van Pygame. Pygame is een package voor Python waarmee je gemakkelijker grafische spelletjes kunt programmeren. Je hoeft niet eerder met Pygame geoefend te hebben om deze opdracht te kunnen maken.
 
+```{seealso} Python en Pygame
 Als je meer over Python of Pygame wilt weten, dan kun je de volgende naslagwerken gebruiken:
--	Uitgebreide informatie over Python, 
-Begin bij de Tutorial, daarna kun je de Library Reference bekijken, als je alles wilt weten dan bekijk je daarna de Language Reference
+
+Uitgebreide informatie over Python
+: Begin bij de Tutorial, daarna kun je de Library Reference bekijken, als je alles wilt weten dan bekijk je daarna de Language Reference\
 https://docs.python.org/3/
--	Alle mogelijkheden van de pygame library kun je in deze reference guide opzoeken
+
+Alle mogelijkheden van de pygame library
+: Zoek ze op in de reference guide\
 https://www.pygame.org/docs/
--	Als je de Pygame library beter wilt begrijpen, bekijk dan deze tutorial
+
+De Pygame library beter begrijpen
+: Bekijk deze tutorial\
 https://realpython.com/pygame-a-primer/
--	Meer over algoritmes in games leer je bij de CS50-cursus van Harvard
+
+Algoritmes in games
+: Bekijk de uitgebreide CS50-cursus van Harvard\
+(niet meer onderhouden, maar nog steeds heel goed)\
 https://cs50.harvard.edu/games/2018/
--	Meer plaatjes kun je halen van Game Art
+
+
+Plaatjes
+: Je kunt meer plaatjes halen van Game Art\
 https://opengameart.org/content/breakout-brick-breaker-tile-set-free
+```
 
 ## 1.4 Tools
 
@@ -56,11 +69,15 @@ Voordat je kunt programmeren moet je bekend zijn met het gereedschap (de tools) 
 
 Je kunt deze opdracht maken in GitHub Codespaces. Dit is een professionele online omgeving die door veel programmeurs gebruikt wordt. GitHub CodeSpaces werkt ook op Chromebooks. Een account op GitHub is gratis en daarmee kun je 60 uur per maand gebruik maken van Codespaces. 
 
-Meer informatie over GitHub Codespaces vind je op  https://stanislas.informatica.nu/help/codespaces/
+```{seealso} GitHub Codespaces 
+Meer informatie over GitHub Codespaces vind je in 
+[de bijlage over Codespaces](https://stanislas.informatica.nu/game/codespaces/)
 
-Versiebeheer in GitHub is gebaseerd op Git. Als je met Git wilt oefenen, dan kun je dat doen op Fundament - Kernprogramma  A: Vaardigheden  9. Versiebeheer met Git
+Versiebeheer in GitHub is gebaseerd op Git. Als je met Git wilt oefenen, dan kun je dat doen op 
+[Fundament - Kernprogramma  A: Vaardigheden  9. Versiebeheer met Git](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=11352)
+```
 
-Mogelijk geeft je docent aan dat je een andere programmeeromgeving moet gebruiken voor deze opdracht. Er zijn veel andere programmeeromgevingen die geschikt zijn om deze opdracht op te maken. Bijvoorbeeld op een computer waar Python en het Pygame package lokaal zijn geïnstalleerd. Op Replit kan deze opdracht niet gemaakt worden. De gratis versie van Replit biedt niet voldoende CPU-capaciteit om een aktiespel dat in Python en Pygame gemaakt is soepel te spelen.
+Je docent geeft misschien aan dat je een andere programmeeromgeving moet gebruiken voor deze opdracht. Er zijn veel andere programmeeromgevingen die geschikt zijn om deze opdracht op te maken. Bijvoorbeeld op een computer waar Python en het Pygame package lokaal zijn geïnstalleerd. Op Replit kan deze opdracht niet gemaakt worden. De gratis versie van Replit biedt niet voldoende CPU-capaciteit om een aktiespel dat in Python en Pygame gemaakt is soepel te spelen.
 
 ## 1.5 Werkwijze
 
